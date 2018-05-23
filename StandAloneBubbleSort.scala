@@ -29,7 +29,7 @@ object StandAloneSort {
             {
             val temp= refinedlines.apply(i)
             refinedlines(i)=refinedlines(j)
-            refinedlines(j)=refinedlines(i)
+            refinedlines(j)=temp
           
             }
     }
