@@ -2,7 +2,7 @@
 import scala.util.matching.Regex
 import scala.io._
 import scala.util.matching._
-object StandAloneMergeSort{
+object StandAloneQuickSort{
   
   def main(args:Array[String]):Unit=
   {
